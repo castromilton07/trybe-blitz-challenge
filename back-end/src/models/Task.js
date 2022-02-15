@@ -34,4 +34,10 @@ const remove = async (id) => {
   return result;
 };
 
-module.exports = { getAll, create, getById, update, remove };
+const removeAll = async () => {
+  const db = await connection();
+  const result = await db.collection(DB_COLLECTION).deleteMany({});
+  return result;
+};
+
+module.exports = { getAll, create, getById, update, remove, removeAll };

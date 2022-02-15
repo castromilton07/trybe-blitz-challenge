@@ -1,4 +1,4 @@
-const TaskService = require('../services/TaskServce');
+const TaskService = require('../services/TaskService');
 
 const getAll = async (_req, res) => {
   const tasks = await TaskService.getAll();
@@ -34,4 +34,10 @@ const remove = async (req, res, next) => {
   res.status(204).json();
 };
 
-module.exports = { getAll, create, getById, update, remove };
+const removeAll = async (_req, res, next) => {
+  const task = await TaskService.removeAll();
+  if (task.error) return next(task.error);
+  res.status(204).json();
+};
+
+module.exports = { getAll, create, getById, update, remove, removeAll };

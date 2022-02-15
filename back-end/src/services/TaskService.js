@@ -39,4 +39,9 @@ const remove = async (id) => {
   return task;
 };
 
-module.exports = { getAll, create, getById, update, remove };
+const removeAll = async () => {
+  const tasks = await Task.removeAll();
+  return tasks;
+};
+
+module.exports = { getAll, create, getById, update, remove, removeAll };
