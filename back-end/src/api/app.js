@@ -1,6 +1,7 @@
 const express = require('express');
+const cors = require('cors');
 const bodyParser = require('body-parser');
-const error = require('./middlewares/error');
+const error = require('../middlewares/error');
 
 const app = express();
 
