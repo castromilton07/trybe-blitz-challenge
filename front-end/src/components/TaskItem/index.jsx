@@ -62,7 +62,7 @@ function TaskItem({ tasks }) {
                     value={ task.id }
                     onClick={ () => console.log('modify') }
                   >
-                    Remove
+                    Modify
                   </button>
                 </td>
                 <td className="column-remove-button">

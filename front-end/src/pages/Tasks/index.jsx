@@ -13,7 +13,7 @@ function Tasks() {
     <TaskStyled>
       <section className="example">
         <TaskItem
-          users={ tasksResponse.tasks !== null
+          tasks={ tasksResponse.tasks !== null
             ? tasksResponse.tasks : [] }
         />
       </section>
