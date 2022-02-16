@@ -9,7 +9,7 @@ router.post('/tasks', TaskController.create);
 router.get('/tasks/:id', TaskController.getById);
 router.put('/tasks/:id', TaskController.update);
 router.delete('/tasks/:id', TaskController.remove);
-router.delete('/tasks', TaskController.removeAll);
+router.delete('/tasks/clear', TaskController.removeAll);
 
 router.get('/tasks/title/asc', TaskOrderController.getAllTitleAsc);
 router.get('/tasks/title/desc', TaskOrderController.getAllTitleDesc);
