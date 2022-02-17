@@ -19,7 +19,7 @@ A aplicação precisava ser desenvolvida na Stack principal da empresae, MERN (M
 ### Pre-requisitos:
 - node e NPM (gerenciador de pacotes do node)
 - mongoDB (estar com o serviço do MongoDB inicializado)
-Ex Linux: `mongod --dbpath ~/data/db`
+    - Ex Linux: `mongod --dbpath ~/data/db`
 
 1. Clone o repositório (HTTPS ou SSH) e entrar na pasta do projeto
 - HTTPS `git clone https://github.com/castromilton07/trybe-blitz-challenge.git`
