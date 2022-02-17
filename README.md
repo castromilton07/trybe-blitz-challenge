@@ -11,6 +11,7 @@ A ideia central consistia em desenvolver um app de lista de tarefas (ToDo List) 
 - Criar novas tarefas;
 - Remover uma tarefa;
 - Atualizar o status de uma tarefa.
+
 A aplicação precisava ser desenvolvida na Stack principal da empresae, MERN (Mongo-Express-React-Node) utilizando o conceito de arquitetura em camadas.
 
 ---
