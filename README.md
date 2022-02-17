@@ -47,5 +47,54 @@ Obs.:
     - Ex: http://localhost:3001/tasks -> GET: Listar todas as tarefas
 - CRUD
     -  `/tasks` [`GET`]  Listar todas as tarefas
-    -  `/tasks` [`POST`]  Listar todas as tarefas
-    -  `/tasks/:id` [`GET`]  Listar todas as tarefas
+    -  `/tasks` [`POST`]  Criar uma nova tarefa
+        - Passar no body do JSON: title, status e createdAt  
+    -  `/tasks/:id` [`GET`]  Listar uma tarefa específica através do ID
+    -  `/tasks` [`PUT`]  Atualizar uma tarefa específica através do ID
+        - Passar no body do JSON: title e status ou somente o status
+    - `/tasks/:id` [`DELETE`]  Deletar uma tarefa específica através do ID
+    - `/tasks/clear` [`DELETE`]  Deletar todas as tarefas
+- Ordenação
+    -  `/tasks/title/asc` [`GET`]  Lista em ordem Ascendente por Title
+    -  `/tasks/title/desc` [`GET`]  Lista em ordem Descendente por Title
+    -  `/tasks/status/asc` [`GET`]  Lista em ordem Ascendente por Status
+    -  `/tasks/status/desc` [`GET`]  Lista em ordem Descendente por Status
+    -  `/tasks/created/asc` [`GET`]  Lista em ordem Ascendente por CreatedAt
+    -  `/tasks/created/desc` [`GET`]  Lista em ordem Descendente por CreatedAt
+
+---
+## Deploy da aplicação no Heroku
+- Front-end
+    -  [Ebyrt ToDo List Front-end](https://todo-list-fe-castromilton07.herokuapp.com)
+        - https://todo-list-fe-castromilton07.herokuapp.com
+<p align="center">
+  <img src="https://bit.ly/EbyrtToDoListFrontEnd" alt="Imagem Ilustrativa do Front-end" width="600px">
+</p>
+
+- Back-end
+    -  [Ebyrt ToDo List Back-end](https://todo-list-be-castromilton07.herokuapp.com/tasks)
+        - https://todo-list-be-castromilton07.herokuapp.com/tasks
+<p align="center">
+  <img src="https://bit.ly/EbyrtToDoListBackEnd" alt="Imagem Ilustrativa do Back-end" width="600px">
+</p>
+
+---
+## Próximos passos
+- Implementação dos testes (unitários e integração);
+- Atingir no mínimo 30% de cobertura de testes;
+- Implementação de um sistema de Login com Token de acesso;
+- Aperfeiçoar a experiência do usuário;
+- Implementação do Swagger para documentação da API.
+
+---
+## Contatos
+
+Milton Castro
+
+[![Perfil](https://bit.ly/perfil_150px)](https://www.linkedin.com/in/milton-castro/)
+
+[![LinkedIn](https://bit.ly/linkedin_30px)](https://www.linkedin.com/in/milton-castro/)
+[![Github](https://bit.ly/github_30)](https://github.com/castromilton07)
+[![Behance](https://bit.ly/behance_30px)](http//be.net/milton-castro)
+[![Email](https://bit.ly/3rUsCz0)](castro.milton07@gmail.com)
+[![Currículo](https://bit.ly/cv_30px)](bit.ly/miltoncastro-cv-4)
