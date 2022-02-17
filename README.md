@@ -96,7 +96,7 @@ Milton Castro
 [![LinkedIn](https://bit.ly/linkedin_30px)](https://www.linkedin.com/in/milton-castro/)
 [![Github](https://bit.ly/github_30)](https://github.com/castromilton07)
 [![Behance](https://bit.ly/behance_30px)](http://be.net/milton-castro)
-[![Email](https://bit.ly/gmail_30)](mailto://castro.milton07@gmail.com)
+[![Email](https://bit.ly/gmail_30)](mailto:castro.milton07@gmail.com)
 [![Currículo](https://bit.ly/cv_30px)](http://bit.ly/miltoncastro-cv-4)
 
 - Email: castro.milton07@gmail.com
