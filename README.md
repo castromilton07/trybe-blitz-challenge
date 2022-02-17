@@ -109,7 +109,7 @@ Obs.:
 - Implementação dos testes (unitários e integração);
 - Atingir no mínimo 30% de cobertura de testes;
 - Implementação de um sistema de Login com Token de acesso;
-- Aperfeiçoar a experiência do usuário;
+- Aperfeiçoar a experiência do usuário e implementar responsividade para dispositivos menores (smratphones e tables);
 - Implementação do Swagger para documentação da API.
 
 ---
