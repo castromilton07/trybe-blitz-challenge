@@ -45,7 +45,7 @@ Obs.:
 ---
 ## Rotas do Back-end
     - Ex: http://localhost:3001/tasks -> GET: Listar todas as tarefas
-- CRUD
+- CRUD (Create-Read-Update-Delete)
     -  `/tasks` [`GET`]  Listar todas as tarefas
     -  `/tasks` [`POST`]  Criar uma nova tarefa
         - Passar no body do JSON: title, status e createdAt  
@@ -55,12 +55,12 @@ Obs.:
     - `/tasks/:id` [`DELETE`]  Deletar uma tarefa específica através do ID
     - `/tasks/clear` [`DELETE`]  Deletar todas as tarefas
 - Ordenação
-    -  `/tasks/title/asc` [`GET`]  Lista em ordem Ascendente por Title
-    -  `/tasks/title/desc` [`GET`]  Lista em ordem Descendente por Title
-    -  `/tasks/status/asc` [`GET`]  Lista em ordem Ascendente por Status
-    -  `/tasks/status/desc` [`GET`]  Lista em ordem Descendente por Status
-    -  `/tasks/created/asc` [`GET`]  Lista em ordem Ascendente por CreatedAt
-    -  `/tasks/created/desc` [`GET`]  Lista em ordem Descendente por CreatedAt
+    -  `/tasks/title/asc` [`GET`]  Listar em ordem Ascendente por Title
+    -  `/tasks/title/desc` [`GET`]  Listar em ordem Descendente por Title
+    -  `/tasks/status/asc` [`GET`]  Listar em ordem Ascendente por Status
+    -  `/tasks/status/desc` [`GET`]  Listar em ordem Descendente por Status
+    -  `/tasks/created/asc` [`GET`]  Listar em ordem Ascendente por CreatedAt
+    -  `/tasks/created/desc` [`GET`]  Listar em ordem Descendente por CreatedAt
 
 ---
 ## Deploy da aplicação no Heroku e Atlas
@@ -98,7 +98,7 @@ Obs.:
   <img src="https://bit.ly/EbyrtToDoListDBStructure" alt="Imagem Ilustrativa do Database" width="600px">
 </p>
 
-`Colection: tasks | Data Types: ObjectID, string e Date`
+`Colection: tasks | Data Types: ObjectId, string e Date`
 <p align="center">
   <img src="https://bit.ly/EbyrtToDoListDBDataTypes" alt="Imagem Ilustrativa da Coleção e Tipos de Dados" width="600px">
 </p>
@@ -114,7 +114,7 @@ Obs.:
 ---
 ## Contatos
 
-Milton Castro
+Milton Castro - Turma 12
 
 [![Perfil](https://bit.ly/perfil_150px)](https://www.linkedin.com/in/milton-castro/)
 
