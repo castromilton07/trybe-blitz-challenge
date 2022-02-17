@@ -51,7 +51,7 @@ Obs.:
     -  `/tasks` [`POST`]  Criar uma nova tarefa
         - Passar no body do JSON: title, status e createdAt  
     -  `/tasks/:id` [`GET`]  Listar uma tarefa específica através do ID
-    -  `/tasks` [`PUT`]  Atualizar uma tarefa específica através do ID
+    -  `/tasks/:id` [`PUT`]  Atualizar uma tarefa específica através do ID
         - Passar no body do JSON: title e status ou somente o status
     - `/tasks/:id` [`DELETE`]  Deletar uma tarefa específica através do ID
     - `/tasks/clear` [`DELETE`]  Deletar todas as tarefas
