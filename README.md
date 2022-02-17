@@ -98,3 +98,5 @@ Milton Castro
 [![Behance](https://bit.ly/behance_30px)](http://be.net/milton-castro)
 [![Email](https://bit.ly/gmail_30)](mailto://castro.milton07@gmail.com)
 [![Currículo](https://bit.ly/cv_30px)](http://bit.ly/miltoncastro-cv-4)
+
+- Email: castro.milton07@gmail.com
