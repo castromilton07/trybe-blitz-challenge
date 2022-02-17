@@ -63,7 +63,7 @@ Obs.:
     -  `/tasks/created/desc` [`GET`]  Lista em ordem Descendente por CreatedAt
 
 ---
-## Deploy da aplicação no Heroku
+## Deploy da aplicação no Heroku e Atlas
 - Front-end
     -  [Ebyrt ToDo List Front-end](https://todo-list-fe-castromilton07.herokuapp.com)
         - https://todo-list-fe-castromilton07.herokuapp.com
@@ -76,6 +76,31 @@ Obs.:
         - https://todo-list-be-castromilton07.herokuapp.com/tasks
 <p align="center">
   <img src="https://bit.ly/EbyrtToDoListBackEnd" alt="Imagem Ilustrativa do Back-end" width="600px">
+</p>
+
+- Database
+    - O deploy do banco de dados (mongoDB) foi realizado crinado um cluster M0 compartilhado (gratuito) com servidor AWS (United States, mais próximo ao Deploy do Back-end Heroku/AWS-US) através da plataforma Atlas MongoDB Cloud.
+    - Especificações do Cluster, Banco e Coleção:
+       - RAM e vCPU compartilhadas;
+       - LAN de baixa performance;
+       - Armazenamento: 512MB;
+       - Limite de conexões: 500;
+       - Limite de bancos: 100;
+       - Limite de coleções 500;
+
+`Cluster: trybe-blitz-todolist-castromilton07`
+<p align="center">
+  <img src="https://bit.ly/EbyrtToDoListDatabase" alt="Imagem Ilustrativa do Cluster" width="600px">
+</p>
+
+`Database: Todolist`
+<p align="center">
+  <img src="https://bit.ly/EbyrtToDoListDBStructure" alt="Imagem Ilustrativa do Database" width="600px">
+</p>
+
+`Colection: tasks | Data Types: ObjectID, string e Date`
+<p align="center">
+  <img src="https://bit.ly/EbyrtToDoListDBDataTypes" alt="Imagem Ilustrativa da Coleção e Tipos de Dados" width="600px">
 </p>
 
 ---
